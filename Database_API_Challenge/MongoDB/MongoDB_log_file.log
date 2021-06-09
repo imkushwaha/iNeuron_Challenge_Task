@@ -1,0 +1,448 @@
+2021-06-03 10:19:20 error has occurred
+2021-06-03 10:19:20 name 'HOST' is not defined
+Traceback (most recent call last):
+  File "G:/ineuron_DS/API_Challenge/MongoDB_API_Challenge.py", line 22, in create_connection
+    lg.info(f"Host id {HOST}, User name {USER} has tried to make a connection !!")
+NameError: name 'HOST' is not defined
+2021-06-03 10:19:20 Exception on /create_connection [POST]
+Traceback (most recent call last):
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-06-03 10:19:20 127.0.0.1 - - [03/Jun/2021 10:19:20] "[35m[1mPOST /create_connection HTTP/1.1[0m" 500 -
+2021-06-03 10:19:25 error has occurred
+2021-06-03 10:19:25 name 'HOST' is not defined
+Traceback (most recent call last):
+  File "G:/ineuron_DS/API_Challenge/MongoDB_API_Challenge.py", line 22, in create_connection
+    lg.info(f"Host id {HOST}, User name {USER} has tried to make a connection !!")
+NameError: name 'HOST' is not defined
+2021-06-03 10:19:25 Exception on /create_connection [POST]
+Traceback (most recent call last):
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-06-03 10:19:25 127.0.0.1 - - [03/Jun/2021 10:19:25] "[35m[1mPOST /create_connection HTTP/1.1[0m" 500 -
+2021-06-03 10:19:31 error has occurred
+2021-06-03 10:19:31 name 'HOST' is not defined
+Traceback (most recent call last):
+  File "G:/ineuron_DS/API_Challenge/MongoDB_API_Challenge.py", line 22, in create_connection
+    lg.info(f"Host id {HOST}, User name {USER} has tried to make a connection !!")
+NameError: name 'HOST' is not defined
+2021-06-03 10:19:31 Exception on /create_connection [POST]
+Traceback (most recent call last):
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-06-03 10:19:31 127.0.0.1 - - [03/Jun/2021 10:19:31] "[35m[1mPOST /create_connection HTTP/1.1[0m" 500 -
+2021-06-03 10:23:31 Local Host Url mongodb://localhost:27017/ has tried to make a connection !!
+2021-06-03 10:23:31 MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True)
+2021-06-03 10:23:31 Connection successfull !!
+2021-06-03 10:23:31 127.0.0.1 - - [03/Jun/2021 10:23:31] "[37mPOST /create_connection HTTP/1.1[0m" 200 -
+2021-06-03 10:29:19 Local Host Url mongodb://localhost:27017/ has tried to make a connection !!
+2021-06-03 10:29:19 MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True)
+2021-06-03 10:29:19 Connection successfull !!
+2021-06-03 10:29:19 127.0.0.1 - - [03/Jun/2021 10:29:19] "[37mPOST /create_connection HTTP/1.1[0m" 200 -
+2021-06-03 11:06:04 Local Host Url mongodb://localhost:27017/ has tried to make a connection !!
+2021-06-03 11:06:04 MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True)
+2021-06-03 11:06:04 Connection successfull !!
+2021-06-03 11:06:06 127.0.0.1 - - [03/Jun/2021 11:06:06] "[37mPOST /create_connection HTTP/1.1[0m" 200 -
+2021-06-03 11:07:33 MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True)
+2021-06-03 11:07:33 Connection successfull !!
+2021-06-03 11:07:33 error has occurred
+2021-06-03 11:07:33 string indices must be integers
+Traceback (most recent call last):
+  File "G:/ineuron_DS/API_Challenge/MongoDB_API_Challenge.py", line 54, in create_collection
+    my_collection = db[f"{CollectionName}"]
+TypeError: string indices must be integers
+2021-06-03 11:07:33 Exception on /create_collection [POST]
+Traceback (most recent call last):
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-06-03 11:07:33 127.0.0.1 - - [03/Jun/2021 11:07:33] "[35m[1mPOST /create_collection HTTP/1.1[0m" 500 -
+2021-06-03 11:07:39 MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True)
+2021-06-03 11:07:39 Connection successfull !!
+2021-06-03 11:07:39 error has occurred
+2021-06-03 11:07:39 string indices must be integers
+Traceback (most recent call last):
+  File "G:/ineuron_DS/API_Challenge/MongoDB_API_Challenge.py", line 54, in create_collection
+    my_collection = db[f"{CollectionName}"]
+TypeError: string indices must be integers
+2021-06-03 11:07:39 Exception on /create_collection [POST]
+Traceback (most recent call last):
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-06-03 11:07:39 127.0.0.1 - - [03/Jun/2021 11:07:39] "[35m[1mPOST /create_collection HTTP/1.1[0m" 500 -
+2021-06-03 11:09:34 MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True)
+2021-06-03 11:09:34 Connection successfull !!
+2021-06-03 11:09:34 error has occurred
+2021-06-03 11:09:34 string indices must be integers
+Traceback (most recent call last):
+  File "G:/ineuron_DS/API_Challenge/MongoDB_API_Challenge.py", line 54, in create_collection
+    my_collection = db[f"{CollectionName}"]
+TypeError: string indices must be integers
+2021-06-03 11:09:34 Exception on /create_collection [POST]
+Traceback (most recent call last):
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-06-03 11:09:34 127.0.0.1 - - [03/Jun/2021 11:09:34] "[35m[1mPOST /create_collection HTTP/1.1[0m" 500 -
+2021-06-03 11:30:12 Collection: student under databse uvtechnical successfully created !! 
+2021-06-03 11:30:12 error has occurred
+2021-06-03 11:30:12 Object of type Collection is not JSON serializable
+Traceback (most recent call last):
+  File "G:/ineuron_DS/API_Challenge/MongoDB_API_Challenge.py", line 56, in create_collection
+    return jsonify(my_collection)
+  File "C:\Python3.8\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "C:\Python3.8\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "C:\Python3.8\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python3.8\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python3.8\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python3.8\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "C:\Python3.8\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Collection is not JSON serializable
+2021-06-03 11:30:12 Exception on /create_collection [POST]
+Traceback (most recent call last):
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-06-03 11:30:12 127.0.0.1 - - [03/Jun/2021 11:30:12] "[35m[1mPOST /create_collection HTTP/1.1[0m" 500 -
+2021-06-03 11:30:14 Collection: student under databse uvtechnical successfully created !! 
+2021-06-03 11:30:14 error has occurred
+2021-06-03 11:30:14 Object of type Collection is not JSON serializable
+Traceback (most recent call last):
+  File "G:/ineuron_DS/API_Challenge/MongoDB_API_Challenge.py", line 56, in create_collection
+    return jsonify(my_collection)
+  File "C:\Python3.8\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "C:\Python3.8\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "C:\Python3.8\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python3.8\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python3.8\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python3.8\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "C:\Python3.8\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Collection is not JSON serializable
+2021-06-03 11:30:14 Exception on /create_collection [POST]
+Traceback (most recent call last):
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python3.8\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-06-03 11:30:14 127.0.0.1 - - [03/Jun/2021 11:30:14] "[35m[1mPOST /create_collection HTTP/1.1[0m" 500 -
+2021-06-03 11:33:09 Collection: student under databse uvtechnical successfully created !! 
+2021-06-03 11:33:09 127.0.0.1 - - [03/Jun/2021 11:33:09] "[35m[1mPOST /create_collection HTTP/1.1[0m" 500 -
+2021-06-03 11:35:01  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 11:35:01  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 11:35:17 Collection: student under databse uvtechnical successfully created !! 
+2021-06-03 11:35:17 127.0.0.1 - - [03/Jun/2021 11:35:17] "[37mPOST /create_collection HTTP/1.1[0m" 200 -
+2021-06-03 11:42:53  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 11:42:53  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 11:42:53  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:08:36 Collection creation started at uvtechnical
+2021-06-03 12:08:36 Collection: student under databse uvtechnical successfully created !! 
+2021-06-03 12:08:36 127.0.0.1 - - [03/Jun/2021 12:08:36] "[37mPOST /create_collection HTTP/1.1[0m" 200 -
+2021-06-03 12:10:39 insertion started......
+2021-06-03 12:10:40 One document get inserted into student under database uvtechnical
+2021-06-03 12:10:40 error has occurred
+2021-06-03 12:10:40 Object of type Cursor is not JSON serializable
+Traceback (most recent call last):
+  File "G:\ineuron_DS\API_Challenge\MongoDB_API_Challenge.py", line 91, in insert_documnet
+    return jsonify(my_collection.find())
+  File "C:\Python3.8\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "C:\Python3.8\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "C:\Python3.8\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python3.8\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Python3.8\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Python3.8\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "C:\Python3.8\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cursor is not JSON serializable
+2021-06-03 12:10:40 127.0.0.1 - - [03/Jun/2021 12:10:40] "[35m[1mPOST /insert_document HTTP/1.1[0m" 500 -
+2021-06-03 12:13:26  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:13:26  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:13:26  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:14:24 insertion started......
+2021-06-03 12:14:24 One document get inserted into student under database uvtechnical
+2021-06-03 12:14:24 127.0.0.1 - - [03/Jun/2021 12:14:24] "[37mPOST /insert_document HTTP/1.1[0m" 200 -
+2021-06-03 12:16:44  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:16:44  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:16:44  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:17:34 insertion started......
+2021-06-03 12:17:34 Record: {'Name': 'sonu', 'Age': 12, 'Surname': 'Razz', 'Phone': 81478594561, '_id': ObjectId('60b87b0691df9a31ebd41b26')} get successfully inserted into collection student under database uvtechnical
+2021-06-03 12:17:34 127.0.0.1 - - [03/Jun/2021 12:17:34] "[37mPOST /insert_one HTTP/1.1[0m" 200 -
+2021-06-03 12:21:49  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:21:49  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:26:02 insertion started......
+2021-06-03 12:26:02 Records: [{'Name': 'snaju', 'Age': 23, 'Surname': 'Kashyap', 'Phone': 81445594561, '_id': ObjectId('60b87d02e625353fbe70b95f')}, {'Name': 'Vijay', 'Age': 28, 'Surname': 'Prjapati', 'Phone': 8144556556, '_id': ObjectId('60b87d02e625353fbe70b960')}] get successfully inserted into collection student under database uvtechnical
+2021-06-03 12:26:02 127.0.0.1 - - [03/Jun/2021 12:26:02] "[37mPOST /insert_many HTTP/1.1[0m" 200 -
+2021-06-03 12:26:29  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:26:29  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:26:29  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:28:27 insertion started......
+2021-06-03 12:28:27 Records: [{'Name': 'Vipul', 'Age': 24, 'Surname': 'Dubey', 'Phone': 8111245789, '_id': ObjectId('60b87d93f729d2386d6cdb98')}, {'Name': 'Anand', 'Age': 26, 'Surname': 'Mehta', 'Phone': 7894556556, '_id': ObjectId('60b87d93f729d2386d6cdb99')}] get successfully inserted into collection student under database uvtechnical
+2021-06-03 12:28:27 127.0.0.1 - - [03/Jun/2021 12:28:27] "[37mPOST /insert_many HTTP/1.1[0m" 200 -
+2021-06-03 12:29:57  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:29:57  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:29:57  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 12:57:06 Updation of record get started......
+2021-06-03 12:57:07 error has occurred
+2021-06-03 12:57:07 update_one() missing 1 required positional argument: 'update'
+Traceback (most recent call last):
+  File "G:\ineuron_DS\API_Challenge\MongoDB_API_Challenge.py", line 156, in update_one
+    my_collection.update_one(f"{Query}, {NewValue}")
+TypeError: update_one() missing 1 required positional argument: 'update'
+2021-06-03 12:57:07 127.0.0.1 - - [03/Jun/2021 12:57:07] "[35m[1mPOST /update_one HTTP/1.1[0m" 500 -
+2021-06-03 12:58:40 Updation of record get started......
+2021-06-03 12:58:40 error has occurred
+2021-06-03 12:58:40 update_one() missing 1 required positional argument: 'update'
+Traceback (most recent call last):
+  File "G:\ineuron_DS\API_Challenge\MongoDB_API_Challenge.py", line 156, in update_one
+    my_collection.update_one(f"{Query}, {NewValue}")
+TypeError: update_one() missing 1 required positional argument: 'update'
+2021-06-03 12:58:41 127.0.0.1 - - [03/Jun/2021 12:58:41] "[35m[1mPOST /update_one HTTP/1.1[0m" 500 -
+2021-06-03 13:02:17  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:02:17  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:02:17  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:02:43 Updation of record get started......
+2021-06-03 13:02:43 Record get successfully updated !!
+2021-06-03 13:02:43 127.0.0.1 - - [03/Jun/2021 13:02:43] "[37mPOST /update_one HTTP/1.1[0m" 200 -
+2021-06-03 13:09:28  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:09:28  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:09:28  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:10:01 Updation of record get started......
+2021-06-03 13:10:01 Record get successfully updated !!
+2021-06-03 13:10:02 127.0.0.1 - - [03/Jun/2021 13:10:02] "[35m[1mPOST /update_one HTTP/1.1[0m" 500 -
+2021-06-03 13:10:42  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:10:42  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:10:42  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:11:14 Updation of record get started......
+2021-06-03 13:11:14 Record get successfully updated !!
+2021-06-03 13:11:14 error has occurred
+2021-06-03 13:11:14 Object of type ObjectId is not JSON serializable
+Traceback (most recent call last):
+  File "G:\ineuron_DS\API_Challenge\MongoDB_API_Challenge.py", line 161, in update_one
+    return jsonify(i)
+  File "C:\Python3.8\lib\site-packages\flask\json\__init__.py", line 370, in jsonify
+    dumps(data, indent=indent, separators=separators) + "\n",
+  File "C:\Python3.8\lib\site-packages\flask\json\__init__.py", line 211, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "C:\Python3.8\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Python3.8\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Python3.8\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Python3.8\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Python3.8\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Python3.8\lib\site-packages\flask\json\__init__.py", line 100, in default
+    return _json.JSONEncoder.default(self, o)
+  File "C:\Python3.8\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+2021-06-03 13:11:14 127.0.0.1 - - [03/Jun/2021 13:11:14] "[35m[1mPOST /update_one HTTP/1.1[0m" 500 -
+2021-06-03 13:12:47  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:12:47  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:12:47  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:12:47  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:13:15 Updation of record get started......
+2021-06-03 13:13:15 Record get successfully updated !!
+2021-06-03 13:13:15 127.0.0.1 - - [03/Jun/2021 13:13:15] "[37mPOST /update_one HTTP/1.1[0m" 200 -
+2021-06-03 13:21:08  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:21:08  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:21:08  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:21:08  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:27:49 Deleting of record get started......
+2021-06-03 13:27:50 Record get successfully deleted !!
+2021-06-03 13:27:50 127.0.0.1 - - [03/Jun/2021 13:27:50] "[37mPOST /delete_one HTTP/1.1[0m" 200 -
+2021-06-03 13:32:47  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:32:47  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 13:32:47  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 14:21:53 Bulk insertion get started......
+2021-06-03 14:21:53 error has occurred
+2021-06-03 14:21:53 documents must be a non-empty list
+Traceback (most recent call last):
+  File "G:\ineuron_DS\API_Challenge\MongoDB_API_Challenge.py", line 247, in bulk_insert
+    my_collection.insert_many(Records)
+  File "C:\Python3.8\lib\site-packages\pymongo\collection.py", line 746, in insert_many
+    raise TypeError("documents must be a non-empty list")
+TypeError: documents must be a non-empty list
+2021-06-03 14:21:54 127.0.0.1 - - [03/Jun/2021 14:21:54] "[35m[1mPOST /bulk_insert HTTP/1.1[0m" 500 -
+2021-06-03 14:25:54  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 14:25:54  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 14:25:54  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 14:28:07 Bulk insertion get started......
+2021-06-03 14:28:07 error has occurred
+2021-06-03 14:28:07 documents must be a non-empty list
+Traceback (most recent call last):
+  File "G:\ineuron_DS\API_Challenge\MongoDB_API_Challenge.py", line 247, in bulk_insert
+    my_collection.insert_many(main_list)
+  File "C:\Python3.8\lib\site-packages\pymongo\collection.py", line 746, in insert_many
+    raise TypeError("documents must be a non-empty list")
+TypeError: documents must be a non-empty list
+2021-06-03 14:28:07 127.0.0.1 - - [03/Jun/2021 14:28:07] "[35m[1mPOST /bulk_insert HTTP/1.1[0m" 500 -
+2021-06-03 14:35:09 Bulk insertion get started......
+2021-06-03 14:41:49 Bulk insertion get started......
+2021-06-03 14:41:49 error has occurred
+2021-06-03 14:41:49 list index out of range
+Traceback (most recent call last):
+  File "G:\ineuron_DS\API_Challenge\MongoDB_API_Challenge.py", line 238, in bulk_insert
+    col4 = record[4]
+IndexError: list index out of range
+2021-06-03 14:41:49 127.0.0.1 - - [03/Jun/2021 14:41:49] "[35m[1mPOST /bulk_insert HTTP/1.1[0m" 500 -
+2021-06-03 14:43:06  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 14:43:06  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 14:43:06  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 14:43:06  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-03 14:43:50 Bulk insertion get started......
+2021-06-03 14:43:50 Bulk insertion get successfully completed !!
+2021-06-03 14:43:50 Total 9 records get inserted.
+2021-06-03 14:43:50 127.0.0.1 - - [03/Jun/2021 14:43:50] "[37mPOST /bulk_insert HTTP/1.1[0m" 200 -
+2021-06-04 09:41:08 Bulk insertion get started......
+2021-06-04 09:41:09 Bulk insertion get successfully completed !!
+2021-06-04 09:41:09 Total 9 records get inserted.
+2021-06-04 09:41:09 127.0.0.1 - - [04/Jun/2021 09:41:09] "[37mPOST /bulk_insert HTTP/1.1[0m" 200 -
+2021-06-04 09:46:38  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:46:38  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:46:38  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:47:05 Bulk insertion get started......
+2021-06-04 09:47:05 error has occurred
+2021-06-04 09:47:05 name 'col1' is not defined
+Traceback (most recent call last):
+  File "G:\ineuron_DS\API_Challenge\MongoDB_API_Challenge.py", line 239, in bulk_insert
+    my_dict = {col1: colvalue1, col2: colvalue2, col3: colvalue3, col4: colvalue4}
+NameError: name 'col1' is not defined
+2021-06-04 09:47:05 127.0.0.1 - - [04/Jun/2021 09:47:05] "[35m[1mPOST /bulk_insert HTTP/1.1[0m" 500 -
+2021-06-04 09:50:42  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:50:42  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:50:42  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:51:07 Bulk insertion get started......
+2021-06-04 09:51:07 error has occurred
+2021-06-04 09:51:07 name 'col1' is not defined
+Traceback (most recent call last):
+  File "G:\ineuron_DS\API_Challenge\MongoDB_API_Challenge.py", line 239, in bulk_insert
+    my_dict = {f"{col1}": colvalue1, f"{col2}": colvalue2, f"{col3}": colvalue3, f"{col4}": colvalue4}
+NameError: name 'col1' is not defined
+2021-06-04 09:51:07 127.0.0.1 - - [04/Jun/2021 09:51:07] "[35m[1mPOST /bulk_insert HTTP/1.1[0m" 500 -
+2021-06-04 09:51:11 Bulk insertion get started......
+2021-06-04 09:51:11 error has occurred
+2021-06-04 09:51:11 name 'col1' is not defined
+Traceback (most recent call last):
+  File "G:\ineuron_DS\API_Challenge\MongoDB_API_Challenge.py", line 239, in bulk_insert
+    my_dict = {f"{col1}": colvalue1, f"{col2}": colvalue2, f"{col3}": colvalue3, f"{col4}": colvalue4}
+NameError: name 'col1' is not defined
+2021-06-04 09:51:11 127.0.0.1 - - [04/Jun/2021 09:51:11] "[35m[1mPOST /bulk_insert HTTP/1.1[0m" 500 -
+2021-06-04 09:52:25  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:52:25  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:52:25  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:52:49 Bulk insertion get started......
+2021-06-04 09:52:50 Bulk insertion get successfully completed !!
+2021-06-04 09:52:50 Total 9 records get inserted.
+2021-06-04 09:52:50 127.0.0.1 - - [04/Jun/2021 09:52:50] "[37mPOST /bulk_insert HTTP/1.1[0m" 200 -
+2021-06-04 09:55:04  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:55:04  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:55:04  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:55:04  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:55:22 Bulk insertion get started......
+2021-06-04 09:55:23 Bulk insertion get successfully completed !!
+2021-06-04 09:55:23 Total 9 records get inserted.
+2021-06-04 09:55:23 127.0.0.1 - - [04/Jun/2021 09:55:23] "[37mPOST /bulk_insert HTTP/1.1[0m" 200 -
+2021-06-04 09:56:09 Bulk insertion get started......
+2021-06-04 09:56:09 Bulk insertion get successfully completed !!
+2021-06-04 09:56:09 Total 9 records get inserted.
+2021-06-04 09:56:09 127.0.0.1 - - [04/Jun/2021 09:56:09] "[37mPOST /bulk_insert HTTP/1.1[0m" 200 -
+2021-06-04 09:56:53  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:56:53  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:56:53  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:57:10 Bulk insertion get started......
+2021-06-04 09:57:10 Bulk insertion get successfully completed !!
+2021-06-04 09:57:10 Total 9 records get inserted.
+2021-06-04 09:57:10 127.0.0.1 - - [04/Jun/2021 09:57:10] "[37mPOST /bulk_insert HTTP/1.1[0m" 200 -
+2021-06-04 09:57:39  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 09:57:39  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 10:20:56 Bulk insertion get started......
+2021-06-04 10:20:56 Bulk insertion get successfully completed !!
+2021-06-04 10:20:56 Total 9 records get inserted.
+2021-06-04 10:20:56 127.0.0.1 - - [04/Jun/2021 10:20:56] "[37mPOST /bulk_insert HTTP/1.1[0m" 200 -
+2021-06-04 10:24:09  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\SQL_API_Challenge.py', reloading
+2021-06-04 10:24:09  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\SQL_API_Challenge.py', reloading
+2021-06-04 10:24:09  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\SQL_API_Challenge.py', reloading
+2021-06-04 10:47:53 Downloading of records get started......
+2021-06-04 10:47:53 <<<<<<<TASK COMPLETED SUCCESSFULLY>>>>>>>
+2021-06-04 10:47:53 127.0.0.1 - - [04/Jun/2021 10:47:53] "[35m[1mPOST /download_data HTTP/1.1[0m" 0 -
+2021-06-04 10:51:32  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 10:51:32  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\MongoDB_API_Challenge.py', reloading
+2021-06-04 10:51:49 Downloading of records get started......
+2021-06-04 10:51:49 File successfully downloaded at G:\ineuron_DS\API_Challenge with name student_data.csv
+2021-06-04 10:51:49 Total number of records downloaded: 9
+2021-06-04 10:51:49 <<<<<<<TASK COMPLETED SUCCESSFULLY>>>>>>>
+2021-06-04 10:51:49 127.0.0.1 - - [04/Jun/2021 10:51:49] "[37mPOST /download_data HTTP/1.1[0m" 200 -
+2021-06-04 10:56:43  * Detected change in 'G:\\ineuron_DS\\API_Challenge\\Cassandra_API_Challenge.py', reloading

@@ -1,0 +1,121 @@
+
+
+USER GUIDE FOR USING CODE OF DATABASE OPERATIONS USING APIs
+
+----->MySql [SQL Database]<-----
+
+<<<<For Creating Connection>>>>
+
+PROVIDE YOUR HOST ID, USER NAME AND PASSWORD FOR CREATING CONNECTION
+
+{
+
+"host": "127.0.0.1",
+"user": "root",
+"password":"upend764@",
+
+}
+
+
+<<<<For Creating Table>>>>
+
+PROVIDE DETAILS TO CREATE TABLE SUCH AS COLUMN NAME (YOU CAN CREATE MAXIMUM FOUR COLUMN)
+
+{
+
+"host": "127.0.0.1",
+"user": "root",
+"password":"upend764@",
+"database": "student",
+"table": "my_table",
+"columnone": "Name",
+"columnonedtype": "VARCHAR(20)",
+"columntwo": "Age",
+"columntwodtype": "INT(5)",
+"columnthree": "Surname",
+"columnthreedtype": "VARCHAR(20)",
+"columnfour": "Phone",
+"columnfourdtype" :"BIGINT(20)"
+
+}
+
+
+<<<<For Inserting Data into Table>>>>
+
+PROVIDE DETAILS TO INSERT IN YOUR NEWLY CREATED TABLE 
+
+{
+
+"host": "127.0.0.1",
+"user": "root",
+"password":"upend764@",
+"database": "student",
+"table": "my_table",
+"columnone": "'Aryan'",
+"columntwo":"'26'",
+"columnthree": "'Kashyap'",
+"columnfour": "'7061229810'"
+
+}
+
+<<<<For Updating Record>>>>
+
+PROVIDE DETAILS TO UPDATE YOUR RECORD
+
+
+{
+
+
+"host": "127.0.0.1",
+"user": "root",
+"password":"upend764@",
+"database": "student",
+"table": "my_table",
+"updatingcolumn": "Name",      
+"updatevalue":"'Vikash'",
+"conditioncolumn": "Phone",
+"conditionvalue": "8102297061"
+
+}
+
+<<<<For Deleting Record>>>>
+
+PROVIDE DETAILS TO DELETE RECORD
+
+{
+
+"host": "127.0.0.1",
+"user": "root",
+"password":"upend764@",
+"database": "student",
+"table": "my_table",
+"column": "Name",
+"value":"'Vikash'"
+
+}
+
+<<<<For Bulk Insertion>>>>
+
+{
+
+"host": "127.0.0.1",
+"user": "root",
+"password":"upend764@",
+"database": "student",
+"table": "my_table",
+"filename": "Test.csv"  #file should be in working directory
+
+
+<<<<Downloading Data From Database>>>>
+
+{
+
+
+"host": "127.0.0.1",
+"user": "root",
+"password":"upend764@",
+"database": "student",
+"table": "my_table"
+
+}
+

@@ -1,0 +1,137 @@
+
+USER GUIDE FOR USING CODE OF DATABASE OPERATIONS USING APIs
+
+
+
+----->Cassandra [NoSql Database]<-----
+
+
+<<<< For creating connection>>>>
+
+{
+
+"secure_connect_bundle": "secure-connect-firstdb.zip",
+"client_id": "qICPLuZntDqsLWOIiJRpBDxt",
+"client_secret": "IznL+E_WK,Gl1BK8vdd4vXrrXmK3w6l4dYMU_d1C.QadYO3,2bAaq1L8ZxOw9JQnNmodu8WuAeDy9Qed_-yeLT6+B4781lYvvvnZratvR41eJ-jrJTmWMDyLii+QM,Yb"
+
+
+}
+
+
+<<<< For Creating Table on Keyspace >>>>
+
+{
+
+"secure_connect_bundle": "secure-connect-firstdb.zip",
+"client_id": "qICPLuZntDqsLWOIiJRpBDxt",
+"client_secret": "IznL+E_WK,Gl1BK8vdd4vXrrXmK3w6l4dYMU_d1C.QadYO3,2bAaq1L8ZxOw9JQnNmodu8WuAeDy9Qed_-yeLT6+B4781lYvvvnZratvR41eJ-jrJTmWMDyLii+QM,Yb",
+"keyspace": "model",
+"table_name": "employee_details",
+"col0": "id",                                ### column0 will be some id which will be PRIMARY KEY of Table        
+"col0_type":"int",
+"col1": "Name",
+"col1_type": "text",
+"col2": "Age",
+"col2_type": "int",
+"col3": "Surname",
+"col3_type": "text",
+"col4": "Phone",
+"col4_type": "bigint"
+
+
+}
+
+
+
+<<<< For Inserting Record In Table >>>>
+
+
+{
+
+"secure_connect_bundle": "secure-connect-firstdb.zip",
+"client_id": "qICPLuZntDqsLWOIiJRpBDxt",
+"client_secret": "IznL+E_WK,Gl1BK8vdd4vXrrXmK3w6l4dYMU_d1C.QadYO3,2bAaq1L8ZxOw9JQnNmodu8WuAeDy9Qed_-yeLT6+B4781lYvvvnZratvR41eJ-jrJTmWMDyLii+QM,Yb",
+"keyspace": "model",
+"table_name": "employee_details",
+"col0": "id",
+"col0_value":11,
+"col1": "Name",
+"col1_value": "'Upendra'",
+"col2": "Age",
+"col2_value": 25,
+"col3": "Surname",
+"col3_value": "'Kumar'",
+"col4": "Phone",
+"col4_value": 8102269061
+
+
+}
+
+
+<<<< For Updating Record >>>>
+
+{
+
+"secure_connect_bundle": "secure-connect-firstdb.zip",
+"client_id": "qICPLuZntDqsLWOIiJRpBDxt",
+"client_secret": "IznL+E_WK,Gl1BK8vdd4vXrrXmK3w6l4dYMU_d1C.QadYO3,2bAaq1L8ZxOw9JQnNmodu8WuAeDy9Qed_-yeLT6+B4781lYvvvnZratvR41eJ-jrJTmWMDyLii+QM,Yb",
+"keyspace": "model",
+"table_name": "employee_details",
+"update_column": "Name",
+"update_value": "'Upendra'",
+"condition_column": "id",
+"condition_value": "11"
+
+}
+
+
+
+<<<< For Deleting a Record with help of PRIMARY KEY >>>>
+
+
+{
+
+"secure_connect_bundle": "secure-connect-firstdb.zip",
+"client_id": "qICPLuZntDqsLWOIiJRpBDxt",
+"client_secret": "IznL+E_WK,Gl1BK8vdd4vXrrXmK3w6l4dYMU_d1C.QadYO3,2bAaq1L8ZxOw9JQnNmodu8WuAeDy9Qed_-yeLT6+B4781lYvvvnZratvR41eJ-jrJTmWMDyLii+QM,Yb",
+"keyspace": "model",
+"table_name": "employee_details",
+"primary_column": "id",
+"primary_value": "11"
+
+}
+
+
+<<<< For Bulk Insertion of Records >>>>
+
+{
+
+"secure_connect_bundle": "secure-connect-firstdb.zip",
+"client_id": "qICPLuZntDqsLWOIiJRpBDxt",
+"client_secret": "IznL+E_WK,Gl1BK8vdd4vXrrXmK3w6l4dYMU_d1C.QadYO3,2bAaq1L8ZxOw9JQnNmodu8WuAeDy9Qed_-yeLT6+B4781lYvvvnZratvR41eJ-jrJTmWMDyLii+QM,Yb",
+"keyspace": "model",
+"table_name": "employee_details",
+"file_name": "cassandra_test_data.csv",
+"col0": "id",
+"col1": "Name",
+"col2": "Age",
+"col3": "Surname",
+"col4": "Phone"
+
+}
+
+
+<<<< For Downloading Data From Database >>>>
+
+
+{
+
+"secure_connect_bundle": "secure-connect-firstdb.zip",
+"client_id": "qICPLuZntDqsLWOIiJRpBDxt",
+"client_secret": "IznL+E_WK,Gl1BK8vdd4vXrrXmK3w6l4dYMU_d1C.QadYO3,2bAaq1L8ZxOw9JQnNmodu8WuAeDy9Qed_-yeLT6+B4781lYvvvnZratvR41eJ-jrJTmWMDyLii+QM,Yb",
+"keyspace": "model",
+"table_name": "employee_details"
+
+}
+
+

@@ -1,0 +1,108 @@
+
+
+USER GUIDE FOR USING CODE OF DATABASE OPERATIONS USING APIs
+
+
+----->MongoDB [NoSql Database]<-----
+
+<<<<For Creating Connection>>>>
+
+
+{"LocalHostUrl": "mongodb://localhost:27017/"}
+
+
+
+<<<< For creating Collection>>>>
+
+
+{
+
+"LocalHostUrl": "mongodb://localhost:27017/",
+"Database": "uvtechnical",
+"CollectionName": "student"
+
+}
+
+
+<<<< For Insertimg One >>>>
+
+
+{
+
+"LocalHostUrl": "mongodb://localhost:27017/",
+"Database": "uvtechnical",
+"CollectionName": "student",
+"Record": {"Name": "sonu", "Age": 12, "Surname": "Razz", "Phone": 81478594561}
+
+}
+
+
+<<<< For Inserting Many >>>>
+
+
+{
+
+"LocalHostUrl": "mongodb://localhost:27017/",
+"Database": "uvtechnical",
+"CollectionName": "student",
+"Records": [{"Name": "Vipul", "Age": 24, "Surname": "Dubey", "Phone": 8111245789},
+            {"Name": "Anand", "Age": 26, "Surname": "Mehta", "Phone": 7894556556}]
+}
+
+
+
+<<<< For Updating Record >>>>
+
+
+{
+
+"LocalHostUrl": "mongodb://localhost:27017/",
+"Database": "uvtechnical",
+"CollectionName": "student",
+"Query": {"Name": "Malai"},
+"NewValue": {"$set":{"Name": "Anand"}}
+
+}
+
+
+<<<< For Deleting Record >>>>
+
+{
+
+"LocalHostUrl": "mongodb://localhost:27017/",
+"Database": "uvtechnical",
+"CollectionName": "student",
+"Query": {"Name": "Anand"}
+
+}
+
+
+<<<< Bulk Insertion >>>>
+
+
+
+{
+
+"LocalHostUrl": "mongodb://localhost:27017/",
+"Database": "uvtechnical",
+"CollectionName": "student",
+"filename": "Test.csv",
+"col1": "Name",
+"col2": "Age",
+"col3": "Surname",
+"col4": "Phone"
+
+}
+
+
+
+<<<< Downloading Data From Database >>>>
+
+{
+
+"LocalHostUrl": "mongodb://localhost:27017/",
+"Database": "uvtechnical",
+"CollectionName": "student"
+
+}
+
